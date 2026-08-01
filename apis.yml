@@ -1,8 +1,15 @@
 aid: stoke-space
 name: Stoke Space
-description: 'Stoke Space is a company surfaced as a portfolio company of spark-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: aerospace. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Stoke Space Technologies is an American space launch company based in Kent, Washington,
+  founded in 2020 by a team of former Blue Origin and SpaceX engineers, led by co-founders Andy Lapsa
+  and Tom Feldman (both ex-Blue Origin). The company is
+  developing Nova, a medium-lift, 100% fully reusable rocket aimed at dramatically lowering the cost of
+  access to orbit, along with its Zenith full-flow staged-combustion first-stage engine, the Andromeda
+  second-stage engine, and a reusable metallic reentry heat shield. Stoke operates a 168,000 sq ft
+  assembly facility and headquarters in Kent and a rocket test site near Moses Lake, Washington. Backed
+  by Spark Capital and others, the company extended its Series D financing to $860 million in 2026. Stoke
+  Space is a physical aerospace/hardware manufacturer and launch provider; it publishes no public
+  developer API, API documentation, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/stoke-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,29 @@ x-backed-by:
 - spark-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.stokespace.com/wp-content/uploads/2022/12/social-bg-1200x675.jpg
 tags:
 - Company
 - Aerospace
+- Space
+- Rockets
+- Launch Services
+- Reusable Rockets
+- Spaceflight
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.stokespace.com
+- type: Blog
+  url: https://www.stokespace.com/news/
+- type: Support
+  url: https://www.stokespace.com/contact/
+- type: PrivacyPolicy
+  url: https://www.stokespace.com/privacy/
+- type: DomainSecurity
+  url: security/stoke-space-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
